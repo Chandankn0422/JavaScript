@@ -1,4 +1,4 @@
-var size= [38,32,28];
+var size= [38,32,28,28];
 console.log(size)
 
 var emp_id = { name: "chandan" , sal: 45000};
