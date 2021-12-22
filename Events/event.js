@@ -12,3 +12,6 @@ function multi(){
     document.getElementById("second").style.backgroundColor="red";
 
 }
+function abc(){
+    alert("hello user")
+}
