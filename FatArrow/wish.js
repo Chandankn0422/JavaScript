@@ -17,9 +17,9 @@ let wish=()=>{
 }
 wish();
 
-let wish=()=>{
+wish=()=>{
     console.log("gn")
 }
 wish();
 
-//pending
+//dont use let 2 times in fat arrow
