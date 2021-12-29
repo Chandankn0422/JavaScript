@@ -53,8 +53,7 @@ var emp =[{"id":1,"first_name":"Davey","last_name":"Gilfillan","email":"dgilfill
 let display=()=>{
     let rows="";
     for(let i=0; i<=emp.length-1; i++){
-        rows=
-        rows+
+        rows=rows+
         `<tr>
         <td>${emp[i].id} </td>
         <td>${emp[i].last_name} </td>
