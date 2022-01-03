@@ -7,4 +7,5 @@ class Bank {
     }
 
 }
-let c1 =new Bank();
+let c1=new Bank();
+c1.open_acc();
