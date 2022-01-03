@@ -1,10 +1,11 @@
 class Bank{
     min_bal =500;
     max_bal =50000;
-    constructor(id, name, amount){
+    constructor(id, name, amount, withdraw){
         this.acc_id =id;
         this.acc_name =name;
         this.acc_amount = amount;
+        this.withdraw = withdraw;
 
     }
     open_acc(){
@@ -12,14 +13,17 @@ class Bank{
     }
     close_acc(){
     }
-    amount_wd(){
-        return this.acc_amount - 500
+    amount_wd(){ 
+        if((this.acc_amount - this.withdraw) >=this.min_bal){
+        console.log("transaction sucessfull")}
+        else{
+            console.log("trasaction failed")
+        }
     }
     amount_debit(){
         return this.acc_amount + 4000
     }
 }
-c1= new Bank(101,"chandan", 456123);
-c2 = new Bank(102, "wade", 65423);
-console.log(c1)
-console.log(c2.amount_debit())
+let c1= new Bank(101,"chandan", 2000, 2000 );
+/* let c2 = new Bank(102, "wade", 1000, 2000); */
+console.log(c1.amount_wd());
