@@ -24,6 +24,6 @@ class Bank{
         return this.acc_amount + 4000
     }
 }
-let c1= new Bank(101,"chandan", 2000, 2000 );
+let c1= new Bank(101,"chandan", 2000, 1000 );
 /* let c2 = new Bank(102, "wade", 1000, 2000); */
-console.log(c1.amount_wd());
+c1.amount_wd();
