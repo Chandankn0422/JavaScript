@@ -3,7 +3,6 @@ class central_gov{
         console.log("parent")
     }
 }
-/* c1 = new cemtral_govt(); */
 
 class kar_govt extends central_gov{
     constructor(){
