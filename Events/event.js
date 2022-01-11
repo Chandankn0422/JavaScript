@@ -20,5 +20,5 @@ let divide=()=>{
     var a=50
     var b= 2
     alert(a%b)
-    document.getElementById("third").style.backgroundColor="yellow"
+    document.getElementById("third").style.backgroundColor="yellow"  
 }

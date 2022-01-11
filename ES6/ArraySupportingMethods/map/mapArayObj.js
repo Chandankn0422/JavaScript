@@ -50,16 +50,6 @@ var emp =[{"id":1,"first_name":"Davey","last_name":"Gilfillan","email":"dgilfill
 {"id":50,"first_name":"Kirk","last_name":"Nellis","email":"knellis1d@nps.gov","gender":"Male","ip_address":"79.3.124.251"}
 ];
 
-
 let display=()=>{
-    let rows="";
-    for(let i=0; i<=emp.length-1; i++){
-        rows=rows+
-        `<tr>
-        <td>${emp[i].id} </td>
-        <td>${emp[i].last_name} </td>
-        <td>${emp[i].email} </td>
-         </tr>`
-    }
-    document.getElementById("root").innerHTML=rows;
+    
 }
